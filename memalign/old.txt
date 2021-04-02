@@ -1,0 +1,11 @@
+goos: linux
+goarch: amd64
+pkg: test/test/memalign
+BenchmarkUnAligned-4   	550869339	         2.13 ns/op
+BenchmarkUnAligned-4   	559126458	         2.14 ns/op
+BenchmarkUnAligned-4   	563216604	         2.12 ns/op
+BenchmarkAligned-4     	563462287	         2.13 ns/op
+BenchmarkAligned-4     	560886312	         2.13 ns/op
+BenchmarkAligned-4     	566827015	         2.14 ns/op
+PASS
+ok  	test/test/memalign	8.505s
